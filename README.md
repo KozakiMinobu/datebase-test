@@ -4,7 +4,6 @@
 <p><textarea name="entry.1596121047" placeholder="コメント" rows="10" cols="40" maxlength="400" id="wcheck" required></textarea></p>
 <input type="submit" id="submitbutton" value="送信">
 </form>
-<iframe onload='if(submitted){window.location="";}' id=hidden_iframe name=hidden_iframe style=display:none></iframe>
 
 <script type="text/javascript">
 var NGComments = ["死ね","バカ",".exe"]; // 簡易的なNGワードの設定

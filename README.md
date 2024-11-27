@@ -28,7 +28,7 @@ function test(wcheck) {
 <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
 <div id="comments"></div>
 <script>
-d3.csv("https://docs.google.com/spreadsheets/d/12NUmIq_LviIX5PN9yPrC3pix71HQvZ5zDv4B9zhC1Sc/edit?usp=sharing", function(error, data){
+d3.csv("https://docs.google.com/spreadsheets/d/12NUmIq_LviIX5PN9yPrC3pix71HQvZ5zDv4B9zhC1Sc/export?format=csv&range=A3:D", function(error, data){
 	var text = "";
 	for(var i=0; i<data.length; i++){
 		text += i+1 + " 名前: <a href=\"mailto:" + data[i].Mail + "\">" + data[i].Name + "</a> " + data[i].Timestamp + "<pre>" + data[i].Comments + "</pre>";
